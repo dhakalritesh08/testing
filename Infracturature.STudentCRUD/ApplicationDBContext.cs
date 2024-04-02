@@ -12,7 +12,7 @@ namespace Infracturature.STudentCRUD
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server = DESKTOP - EJIH7BA; Database = NetApiTesting; Trusted_Connection = True; TrustServerCertificate = True; MultipleActiveResultSets = True;");
+            optionsBuilder.UseSqlServer("Server = DESKTOP - EJIH7BA; Database = NetApiTesting; Trusted_Connection = True; TrustServerCertificate = True; MultipleActiveResultSets = True");
         }
         public DbSet<Student> Student { get; set; }
        
